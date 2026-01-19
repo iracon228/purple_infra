@@ -144,8 +144,6 @@ done
 
 Expected: a mix of `RED NGINX` and `BLUE NGINX` across repeated requests.
 
-> Tip: `?r=$i` helps avoid client/proxy caching. `Connection: close` avoids keep-alive effects.
-
 ## Configuration
 
 Default values are defined in `variables.tf`:
